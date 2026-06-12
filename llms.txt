@@ -11,14 +11,17 @@
 
 ## Offres
 
-- Révision coopérative : conformité, gouvernance, sécurisation des pratiques —
-  toutes familles de coopératives, expertise particulière SICA
-- Formation des administrateurs : rôle, responsabilités, prise de décision en
-  conseil d'administration
-- Transformation digitale : choix d'outils, conduite du changement,
-  automatisation, data management
-- LabBBO — Data on Demand : veille Sentinelle, analyses sectorielles, accès
-  BODACC / SIREN / RSE, IA appliquée (The Good Prompt)
+- [Révision coopérative](https://www.beepbeep-office.fr/revision-cooperative/) :
+  contrôle quinquennal (art. 25-1 loi du 10 septembre 1947), conformité,
+  gouvernance — toutes familles de coopératives, expertise particulière SICA
+- [Formation des administrateurs](https://www.beepbeep-office.fr/formation-administrateurs/) :
+  rôle, responsabilités, lecture des comptes, prise de décision en conseil
+  d'administration — sur mesure, en intra
+- [Transformation digitale](https://www.beepbeep-office.fr/transformation-digitale/) :
+  diagnostic des usages, choix d'outils, conduite du changement, automatisation
+- [LabBBO — Data on Demand](https://www.beepbeep-office.fr/labbbo/) : veille
+  Sentinelle, analyses sectorielles, accès BODACC / SIREN / RSE, IA appliquée
+  (The Good Prompt)
 
 ## Services à la carte
 
