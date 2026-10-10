@@ -23,6 +23,13 @@
   Sentinelle, analyses sectorielles, accès BODACC / SIREN / RSE, IA appliquée
   (The Good Prompt)
 
+## Réseau
+
+- [Les Indép' de la Révision](https://les-reviseurs-independants.web.app/) : alliance de trois réviseurs
+  coopératifs agréés et indépendants (Pierre, Philippe et
+  Corinne / BBO), coordonnée par BBO — diagnostic flash gratuit,
+  11 familles coopératives, nouveaux seuils 2026 (décret n° 2026-661)
+
 ## Services à la carte
 
 - Accompagnement financier (suivi d'indicateurs, alertes précoces)

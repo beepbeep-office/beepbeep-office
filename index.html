@@ -29,6 +29,7 @@
       "description": "Révision coopérative (SICA, SCOP, SCIC, HLM, coopératives de consommateurs), formation des administrateurs, transformation digitale et data on demand (LabBBO) pour les coopératives françaises.",
       "areaServed": "FR",
       "sameAs": ["https://fr.linkedin.com/company/beepbeep-office"],
+      "memberOf": {"@type": "Organization", "name": "Les Indép' de la Révision", "url": "https://les-reviseurs-independants.web.app/", "description": "Alliance de trois réviseurs coopératifs agréés et indépendants"},
       "knowsAbout": ["Révision coopérative", "SICA", "SCOP", "SCIC", "Formation des administrateurs", "Gouvernance coopérative", "Transformation digitale", "Data", "Intelligence artificielle"],
       "makesOffer": [
         {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Révision coopérative", "description": "Révision coopérative pour toutes familles de coopératives, expertise SICA : conformité, gouvernance, sécurisation des pratiques."}},
@@ -570,6 +571,33 @@
         .foot-links a{color:var(--mid);text-decoration:none}
         .foot-links a:hover{color:var(--y)}
     </style>
+<style>
+/* ══ ALLIANCE — Les Indép' de la Révision ══ */
+#alliance .s-sub{max-width:660px}
+#alliance .s-sub a{color:var(--y);text-decoration:none;border-bottom:1px solid var(--y-border)}
+#alliance .s-sub a:hover{border-bottom-color:var(--y)}
+.ally-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.15rem;margin-bottom:1.75rem}
+.ally-card{background:var(--card);border:1px solid var(--border);border-radius:var(--r);padding:1.6rem;display:flex;flex-direction:column;gap:.55rem;transition:border-color .3s,transform .3s}
+.ally-card:hover{border-color:var(--y-border);transform:translateY(-3px)}
+.ally-card.me{background:var(--y);border-color:var(--y)}
+.ally-role{font-family:'Space Mono',monospace;font-size:.62rem;letter-spacing:.18em;text-transform:uppercase;color:rgba(255,230,0,.7)}
+.ally-name{font-family:'Bebas Neue',sans-serif;font-size:1.9rem;letter-spacing:.03em;line-height:1;color:#fff}
+.ally-txt{font-size:.9rem;color:rgba(240,237,230,.62);line-height:1.6;margin:0}
+.ally-card.me .ally-role{color:rgba(0,0,0,.55)}
+.ally-card.me .ally-name{color:var(--black)}
+.ally-card.me .ally-txt{color:rgba(0,0,0,.68)}
+.ally-badge{align-self:flex-start;margin-top:auto;font-size:.7rem;font-weight:700;letter-spacing:.04em;padding:.28rem .75rem;border-radius:99px;background:var(--black);color:var(--y)}
+.ally-proofs{list-style:none;display:flex;flex-wrap:wrap;gap:.6rem;margin:0 0 2rem;padding:0}
+.ally-proofs li{font-size:.82rem;padding:.4rem .95rem;border:1px solid var(--y-border);background:var(--y-dim);color:var(--y);border-radius:99px}
+.ally-btns{display:flex;flex-wrap:wrap;gap:.75rem}
+.ally-btn{display:inline-block;font-family:'Bebas Neue',sans-serif;font-size:1.15rem;letter-spacing:.1em;padding:.85rem 1.9rem;border-radius:100px;text-decoration:none;background:var(--y);color:var(--black);border:2px solid var(--y);transition:transform .22s,border-color .22s;-webkit-tap-highlight-color:transparent;touch-action:manipulation}
+.ally-btn:hover{transform:translateY(-2px)}
+.ally-btn.ghost{background:transparent;color:var(--y);border-color:var(--y-border)}
+.ally-btn.ghost:hover{border-color:var(--y)}
+@media (hover:hover) and (pointer:fine){#alliance a{cursor:none}}
+@media (max-width:860px){.ally-grid{grid-template-columns:1fr;gap:.9rem}}
+@media (max-width:480px){.ally-btns{flex-direction:column}.ally-btn{text-align:center}}
+</style>
 </head>
 <body>
 <div id="cursor"></div>
@@ -639,7 +667,7 @@
             <div class="srv-title">La Révision Coopérative</div>
             <p class="srv-body">On oublie la révision "sanction". Coopératives de toutes familles — commerciales, artisanales, de consommateurs, d'HLM, SCOP, SCIC… et avec une expertise particulièrement affûtée pour les SICA. On sécurise vos pratiques, on détecte ce qui cloche et on repart ensemble sur de bonnes bases.</p>
             <div class="srv-tags">
-                <span class="srv-tag">SICA</span><span class="srv-tag">Conformité</span><span class="srv-tag">Gouvernance</span>
+                <span class="srv-tag">SICA</span><span class="srv-tag">Conformité</span><span class="srv-tag">Gouvernance</span><span class="srv-tag">Alliance de 3 réviseurs</span>
             </div>
             <a class="srv-link" href="/revision-cooperative/">En savoir plus →</a>
         </div>
@@ -676,6 +704,43 @@
         </div>
     </div>
 </div>
+
+<!-- ══ ALLIANCE — Les Indép' de la Révision ══════════════ -->
+<section class="section-wrap" id="alliance" aria-labelledby="ally-title">
+    <p class="eyebrow reveal">— Le collectif · Les Indép' de la Révision</p>
+    <h2 class="display s-title reveal" id="ally-title">Une révision.<br>Trois experts.</h2>
+    <p class="s-sub reveal">Pour la révision coopérative, BBO ne joue pas en solo. Corinne Devienne coordonne
+    <a href="https://les-reviseurs-independants.web.app/" target="_blank" rel="noopener"><strong>Les Indép' de la Révision</strong></a>, l'alliance de trois réviseurs coopératifs
+    agréés et indépendants. Vous gardez une seule interlocutrice&nbsp;; votre dossier bénéficie de trois expertises.</p>
+    <div class="ally-grid">
+        <div class="ally-card reveal">
+            <div class="ally-role">Juridique &amp; doctrine</div>
+            <div class="ally-name">Pierre</div>
+            <p class="ally-txt">Statuts, doctrine et loi de 1947. Le bouclier juridique de vos décisions, et un formateur d'administrateurs reconnu.</p>
+        </div>
+        <div class="ally-card reveal reveal-d1">
+            <div class="ally-role">Gouvernance &amp; risques</div>
+            <div class="ally-name">Philippe</div>
+            <p class="ally-txt">Ancien associé EY, vice-président de la commission de la coopération agricole à la CNCC. La lecture « risques » de votre gouvernance.</p>
+        </div>
+        <div class="ally-card me reveal reveal-d2">
+            <div class="ally-role">Coordination &amp; conformité</div>
+            <div class="ally-name">Corinne</div>
+            <p class="ally-txt">Votre interlocutrice terrain, du cadrage jusqu'au rapport présenté en assemblée générale.</p>
+            <span class="ally-badge">BeepBeepOffice</span>
+        </div>
+    </div>
+    <ul class="ally-proofs reveal" aria-label="Les engagements de l'alliance">
+        <li>11 familles coopératives couvertes</li>
+        <li>Nouveaux seuils 2026 intégrés</li>
+        <li>Diagnostic flash gratuit</li>
+        <li>Réponse sous 48&nbsp;h</li>
+    </ul>
+    <div class="ally-btns reveal">
+        <a class="ally-btn" href="https://les-reviseurs-independants.web.app/#diagnostic" target="_blank" rel="noopener">Faire le diagnostic flash ↗</a>
+        <a class="ally-btn ghost" href="https://les-reviseurs-independants.web.app/#trio" target="_blank" rel="noopener">Découvrir l'alliance ↗</a>
+    </div>
+</section>
 
 <!-- ══ TESTIMONIALS ════════════════════ -->
 <section id="testi">
@@ -740,6 +805,7 @@
         <a href="/formation-administrateurs/">Formation des administrateurs</a>
         <a href="/transformation-digitale/">Transformation digitale</a>
         <a href="/labbbo/">LabBBO — Data on Demand</a>
+        <a href="https://les-reviseurs-independants.web.app/" target="_blank" rel="noopener" title="Alliance de réviseurs coopératifs agréés indépendants">Les Indép' de la Révision ↗</a>
         <a href="/mentions-legales/">Mentions légales</a>
     </nav>
     <p>© 2026 BeepBeepOffice. Tous droits réservés.</p>
@@ -781,7 +847,7 @@ const APP = {
             ],
             result: {
                 title: 'Votre révision mérite un vrai partenaire.',
-                body: 'BBO intervient sur toutes les familles coopératives — avec une expertise forte sur les SICA. On fait le bilan, on sécurise, on propose. Pas d\'alarme inutile, juste de la clarté et un plan d\'action.',
+                body: 'BBO intervient sur toutes les familles coopératives — avec une expertise forte sur les SICA. On fait le bilan, on sécurise, on propose. Pas d\'alarme inutile, juste de la clarté et un plan d\'action. Et quand le dossier l\'exige, Corinne mobilise l\'alliance des Indép\' de la Révision : trois réviseurs agréés, une seule interlocutrice.',
                 subject: 'BBO — Diagnostic Révision Coopérative'
             }
         },
